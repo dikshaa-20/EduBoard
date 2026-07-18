@@ -4,13 +4,13 @@ import home from "../assets/home1.jpg"
 import { SiViaplay } from "react-icons/si";
 import ai from "../assets/ai.png"
 import ai1 from "../assets/SearchAi.png"
-import Logos from '../components/logos';
+import Logos from '../components/Logos';
 import ExploreCourses from '../components/ExploreCourses';
 import CardPage from '../components/CardPage';
 import { useNavigate } from 'react-router-dom';
 import About from '../components/About';
 import Footer from '../components/Footer';
-import ReviewPage from '../components/reviewPage';
+import ReviewPage from '../components/ReviewPage';
 function Home() {
   const navigate=useNavigate()
   return (
