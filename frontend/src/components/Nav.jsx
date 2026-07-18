@@ -98,7 +98,7 @@ text-[20px] border-2 bg-white border-white cursor-pointer ' onClick={()=>setshow
 {userData?.name.slice(0,1).toUpperCase()}
 </div>}
 
-{userData?.role==="educator" && <div className='w-[200px] h-[65px] flex items-center justify-center border-2
+{userData && <div className='w-[200px] h-[65px] flex items-center justify-center border-2
 border-white text-white bg-black rounded-[10px] text-[18px] font-light  cursor-pointer '
 onClick={()=>navigate("/profile")}
  >My Profile</div>}
