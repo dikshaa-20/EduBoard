@@ -24,7 +24,7 @@ import ViewLectures from './pages/ViewLectures'
 import MyEnrolledCourses from './pages/MyEnrolledCourses'
 import getAllReviews from './customHooks/getAllReviews'
 import SearchWithAi from './pages/SearchWithAi'
-export   const serverurl="http://localhost:8000"
+export   const serverurl="https://lms-7gap.onrender.com"
 function App() {
 getCurrentUser()
 getCreatorCourse()
