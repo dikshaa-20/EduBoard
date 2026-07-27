@@ -116,7 +116,7 @@ const result=await axios.post(serverurl+"/api/auth/googleauth",{name,email,role}
     </div>
   
     <div className='w-[80%] h-[40px] border-1 border-black
-     rounded-[5px] flex items-center justify-center cursor-pointer ' onClick={googleLogin}>
+     rounded-[5px] flex items-center justify-center ' onClick={googleLogin}>
   <img src={google} className='w-[25px]' alt="" />
   <span className='text-[18px] text-gray-500  '>oogle</span>
     </div>
