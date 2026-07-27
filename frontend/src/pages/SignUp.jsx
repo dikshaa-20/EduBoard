@@ -117,7 +117,7 @@ flex items-center justify-center '>Or continue with</div>
   </div>
 
   <div className='w-[80%] h-[40px] border-1 border-black
-   rounded-[5px] flex items-center justify-center ' onClick={googleSignUp}>
+   rounded-[5px] flex items-center justify-center cursor-pointer ' onClick={googleSignUp}>
 <img src={google} className='w-[25px]' alt="" />
 <span className='text-[18px] text-gray-500  '>oogle</span>
   </div>
